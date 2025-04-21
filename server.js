@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 // Import Product model
-const Product = require('./models/Product'); // Ensure you have the Product.js model
+const Product = require('./models/product'); // Ensure you have the Product.js model
 
 // App setup
 const app = express();
